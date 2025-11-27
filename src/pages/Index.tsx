@@ -34,6 +34,124 @@ const slides = [
   },
   {
     id: 2,
+    title: 'Строение секвойи',
+    subtitle: 'Анатомия гиганта',
+    image: 'https://cdn.poehali.dev/projects/b574e17f-a4e2-4dcf-9e1e-6a237f8022e5/files/d463d232-57ca-49ab-8e44-eb1ede04752d.jpg',
+    content: '',
+    structure: [
+      { 
+        part: 'Крона',
+        icon: 'Cloud',
+        details: [
+          'Начинается на высоте 30-50 метров от земли',
+          'Диаметр кроны до 30 метров',
+          'В кроне живёт целая экосистема: саламандры, совы, летучие мыши',
+          'Может собирать до 11 000 литров воды из тумана за год'
+        ]
+      },
+      {
+        part: 'Ствол',
+        icon: 'Pilcrow',
+        details: [
+          'Конусообразный, сужается к вершине',
+          'Годовые кольца показывают возраст и климатические изменения',
+          'Древесина содержит танины — защита от гниения',
+          'Сердцевина может быть полой, но дерево продолжает расти'
+        ]
+      },
+      {
+        part: 'Кора',
+        icon: 'Layers',
+        details: [
+          'Толщина 30-60 см, мягкая и губчатая',
+          'Содержит танины, отпугивающие вредителей',
+          'Не содержит смолы — не горит при пожарах',
+          'Красновато-коричневый цвет из-за высокого содержания железа'
+        ]
+      },
+      {
+        part: 'Корневая система',
+        icon: 'GitBranch',
+        details: [
+          'Глубина всего 1-2 метра (неглубокая)',
+          'Распространяется на 30-50 метров в стороны',
+          'Переплетается с корнями соседних деревьев',
+          'Образует микоризу с грибами для усиления питания'
+        ]
+      }
+    ]
+  },
+  {
+    id: 3,
+    title: 'Два вида секвой',
+    subtitle: 'Гигантская vs Вечнозелёная',
+    image: 'https://cdn.poehali.dev/projects/b574e17f-a4e2-4dcf-9e1e-6a237f8022e5/files/9e035314-6ad4-4f49-84d7-c2e4e3fe0b20.jpg',
+    content: '',
+    comparison: [
+      {
+        aspect: 'Научное название',
+        giant: 'Sequoiadendron giganteum',
+        coastal: 'Sequoia sempervirens'
+      },
+      {
+        aspect: 'Максимальная высота',
+        giant: '95 метров',
+        coastal: '115 метров'
+      },
+      {
+        aspect: 'Диаметр ствола',
+        giant: 'До 11 метров (толще)',
+        coastal: 'До 7 метров'
+      },
+      {
+        aspect: 'Объём',
+        giant: 'До 1487 м³ (крупнее)',
+        coastal: 'До 1000 м³'
+      },
+      {
+        aspect: 'Форма ствола',
+        giant: 'Массивный конус',
+        coastal: 'Стройный цилиндр'
+      },
+      {
+        aspect: 'Ареал обитания',
+        giant: 'Горы Сьерра-Невада (1500-2400м)',
+        coastal: 'Побережье (0-900м)'
+      },
+      {
+        aspect: 'Климат',
+        giant: 'Сухой, снежные зимы',
+        coastal: 'Влажный, туманы'
+      },
+      {
+        aspect: 'Хвоя',
+        giant: 'Чешуйчатая, шиловидная',
+        coastal: 'Плоская, игольчатая'
+      },
+      {
+        aspect: 'Шишки',
+        giant: '5-7 см, 200 семян',
+        coastal: '2-3 см, 100 семян'
+      },
+      {
+        aspect: 'Возраст',
+        giant: 'До 3500 лет',
+        coastal: 'До 2200 лет'
+      },
+      {
+        aspect: 'Способ размножения',
+        giant: 'Только семенами',
+        coastal: 'Семенами + от пня'
+      },
+      {
+        aspect: 'Название',
+        giant: 'Гигантская секвойя, мамонтово дерево',
+        coastal: 'Секвойя вечнозелёная, редвуд'
+      }
+    ]
+  },
+  {
+    id: 4,
     title: 'Где растут',
     subtitle: 'География секвой',
     image: 'https://cdn.poehali.dev/projects/b574e17f-a4e2-4dcf-9e1e-6a237f8022e5/files/e7810574-9f6e-488d-8535-7c2667a47810.jpg',
@@ -47,7 +165,7 @@ const slides = [
     ]
   },
   {
-    id: 3,
+    id: 5,
     title: 'Рекорды',
     subtitle: 'Самые известные деревья',
     image: 'https://cdn.poehali.dev/projects/b574e17f-a4e2-4dcf-9e1e-6a237f8022e5/files/9e035314-6ad4-4f49-84d7-c2e4e3fe0b20.jpg',
@@ -62,7 +180,7 @@ const slides = [
     ]
   },
   {
-    id: 4,
+    id: 6,
     title: 'Интересные факты',
     subtitle: 'Удивительные особенности',
     image: 'https://cdn.poehali.dev/projects/b574e17f-a4e2-4dcf-9e1e-6a237f8022e5/files/d463d232-57ca-49ab-8e44-eb1ede04752d.jpg',
@@ -83,7 +201,7 @@ const slides = [
     ]
   },
   {
-    id: 5,
+    id: 7,
     title: 'Заключение',
     subtitle: 'Сохранить для будущих поколений',
     image: 'https://cdn.poehali.dev/projects/b574e17f-a4e2-4dcf-9e1e-6a237f8022e5/files/e7810574-9f6e-488d-8535-7c2667a47810.jpg',
@@ -180,6 +298,54 @@ export default function Index() {
                         <p className="text-sm text-muted-foreground">{record.desc}</p>
                       </Card>
                     ))}
+                  </div>
+                )}
+
+                {slide.structure && (
+                  <div className="space-y-6 max-w-4xl mx-auto">
+                    {slide.structure.map((item, idx) => (
+                      <Card key={idx} className="p-6 bg-white/80 hover:bg-white transition-all animate-fade-in" style={{ animationDelay: `${idx * 100}ms` }}>
+                        <div className="flex items-start gap-4 mb-4">
+                          <div className="p-3 rounded-full bg-primary/10">
+                            <Icon name={item.icon} className="text-primary" size={28} />
+                          </div>
+                          <h3 className="font-bold text-2xl text-primary mt-2">{item.part}</h3>
+                        </div>
+                        <ul className="space-y-2 ml-16">
+                          {item.details.map((detail, detailIdx) => (
+                            <li key={detailIdx} className="flex items-start gap-2">
+                              <span className="text-secondary mt-1">•</span>
+                              <span className="text-foreground">{detail}</span>
+                            </li>
+                          ))}
+                        </ul>
+                      </Card>
+                    ))}
+                  </div>
+                )}
+
+                {slide.comparison && (
+                  <div className="max-w-5xl mx-auto">
+                    <div className="grid grid-cols-3 gap-2 mb-4">
+                      <div className="font-bold text-primary text-center p-3 bg-primary/5 rounded-lg">Параметр</div>
+                      <div className="font-bold text-primary text-center p-3 bg-primary/5 rounded-lg">Гигантская секвойя</div>
+                      <div className="font-bold text-primary text-center p-3 bg-primary/5 rounded-lg">Вечнозелёная секвойя</div>
+                    </div>
+                    <div className="space-y-2">
+                      {slide.comparison.map((item, idx) => (
+                        <div key={idx} className="grid grid-cols-3 gap-2 animate-fade-in" style={{ animationDelay: `${idx * 50}ms` }}>
+                          <Card className="p-4 bg-white/80 hover:bg-white transition-all">
+                            <p className="font-semibold text-sm text-foreground">{item.aspect}</p>
+                          </Card>
+                          <Card className="p-4 bg-white/80 hover:bg-white transition-all">
+                            <p className="text-sm text-foreground">{item.giant}</p>
+                          </Card>
+                          <Card className="p-4 bg-white/80 hover:bg-white transition-all">
+                            <p className="text-sm text-foreground">{item.coastal}</p>
+                          </Card>
+                        </div>
+                      ))}
+                    </div>
                   </div>
                 )}
 
